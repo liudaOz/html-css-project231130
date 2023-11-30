@@ -6,6 +6,11 @@
     <title>Learn HTML & CSS</title>
 
     <style>
+
+        h1, h2, h3 {  /* Tag selector 001 */
+            font-size: 100px;
+            background-color: aquamarine;
+        }
         p{
             /* color: grey;  -- word */
             /* color: rgb(23, 123, 100);  -rgb */
@@ -13,17 +18,46 @@
             /* hex-code */
             color: #a71808;
            /* font-size: 200pt; --typografic punkts*/
-           font-size: 200px;
+           font-size: 40px;
         }
+
+        #heading{
+        color: blueviolet;
+        font-size:25px ;
+    }
+
+    .my-class{
+        color: gold;
+
+    }
+
+    .green-text{
+        color: darkgreen;
+
+    }
+
+    .font-size-lagre{
+        font-size: 90px;
+    }
+
+    /* inline style - 1000 */
+    
     </style>
+    
+    
 
 
 </head>
 <body>
 <!--  ctrl + .  - швидке створення коментарів-->  
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>  
-
-
+<h1>Heading</h1>
+<p style="color:blue">Lorem ipsum dolor sit amet <span class="green-text" font-size-lagre>provident dolor reiciendis </span> consectetur, adipisicing elit.</p>  <!-- Tag selector 010 */ --> 
+<article>
+    <h2 id="heding">Супер мега заголовок !</h2> <!-- Tag selector 100 */ -->  
+</article>
+<p> Autem quidem iure <span class="green-text">provident dolor reiciendis</span> vitae beatae doloremque!</p>
+<p class="my-class"> Autem quidem </p>
+<p class="my-class"> dolor reiciendis vitae beatae doloremque!</p>
 
 </body>
 </html>
