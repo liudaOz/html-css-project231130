@@ -1,10 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
 
 
+@font-face {
+    font-family: 'Lilita One';
+    src: url('./fonts/LilitaOne-Regular.ttf');
+}
 
 h1, h2, h3 {  /* Tag selector 001 */
     font-size: 100px;
     background-color: aquamarine;
+    font-family: 'Lilita One';
+}
+
+body{
+    font-size: 20px;
 }
 p{
     /* color: grey;  -- word */
@@ -13,7 +23,12 @@ p{
     /* hex-code */
     color: #a71808;
    /* font-size: 200pt; --typografic punkts*/
-   font-size: 40px;
+   font-size: 40px;  /* 1em - один розмір батьківського шрифта з тегу p (якщо font-size є) або від тегу body (якщо нема font-size в тезі p) /
+   line-height: 2em;  /* 2em*40px =80px*/
+   text-align:justify;
+   font-family: 'IBM Plex Mono', monospace;
+   font-weight: bold;
+  
 }
 
 #heading{
@@ -35,4 +50,20 @@ color: darkgreen;
 font-size: 90px;
 }
 
+h1{
+    text-align: center;
+}
+
 /* inline style - 1000 */
+#btn-1{
+    text-transform: uppercase;
+}
+
+#btn-2{
+    text-transform: capitalize;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;  /*100-500 lighter,  600-900 bold*/
+}
