@@ -67,3 +67,17 @@ a {
     color: black;
     font-weight: 600;  /*100-500 lighter,  600-900 bold*/
 }
+
+
+/* 
+
+font-size - розмір шрифту
+color - колір тексту
+background-color - колір заднього фону
+line-height - висота лінії
+text-transform - приведення до якогось певного регістру
+text-decoration - керування лініями під текстом (прибрати з посилання підкреслювання)
+font-weight - зробити текст жирним (bold)
+font-family - обрати сімейство шрифтів
+
+*/
